@@ -88,7 +88,6 @@
     width: 162px;
     position: absolute;
     top: 61px;
-
 }
 
 .oval {
@@ -120,15 +119,21 @@
     width: 486px;
     height: 742px;
     border-radius: 500px;
-    padding: 17px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    background-color: var(--white);
     overflow: hidden;
+    position: relative;
+    
 }
 
 .hero_redhead {
     width: 468px;
     height: 742px;
     border-radius: 500px;
+    position:relative;
+    border-style: dotted;
+    border-color: var(--white);
+    padding: 17px;
 }
 
 .hero_redhead img {
@@ -138,7 +143,7 @@
     border-radius: inherit;
 }
 
-/* BUTTON SHOP NOW--------------------------------------------------------------*/
+/* BUTTON SHOP NOW --------------------------------------------------------------*/
 
 .button_shop-now {
     display: flex;
@@ -148,6 +153,7 @@
     height: 114px;
     background-color: var(--white);
     border-radius: 50%;
+    border: none;
 
     color: var(--red);
     font-family: 'DM Sans', sans-serif;
@@ -156,7 +162,9 @@
     transform: rotate(-14deg);
     cursor: pointer;
     text-decoration: none;
-    border: none;
+    position: absolute;
+    bottom: -20px;
+    left: 35%;
 }
 
 .button_shop-now:hover,
