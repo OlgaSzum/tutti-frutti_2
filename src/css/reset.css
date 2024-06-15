@@ -1,4 +1,26 @@
-/* Reset styles */
+/* RESEST STYLES --------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--white);
+  background-color: var(--red);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p {
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  color: var(--white);
+}
+
 h1,
 h2,
 h3,
@@ -6,26 +28,20 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin: 0px;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-align: center;
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 img {
