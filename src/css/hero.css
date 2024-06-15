@@ -78,6 +78,34 @@
     letter-spacing: -0.04em;
 }
 
+.hero-strawberries_hashtags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 4px;
+}
+
+.hero-strawberries_hashtags li {
+    list-style-type: none;
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: -0.04em;
+    padding: 12px 32px;
+    border: 1px solid var(--white);
+    border-radius: 1,000px;
+   
+}
+
+.hero-strawberries_hashtags li:hover,
+.hero-strawberries_hashtags li:focus {
+    color: var(--green);
+    border-color: var(--green);
+}
+
 .hero_watermelon_pill_image {
     width: 200px;
     position: absolute;
