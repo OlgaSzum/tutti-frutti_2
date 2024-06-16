@@ -85,27 +85,26 @@
   
   margin-top: 20px;
   gap: 4px;
-
 }
 
 .hero-strawberries_hashtags li {
-    list-style-type: none;
-    background-color: transparent;
-    color: var(--white);
-    text-transform: uppercase;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 12px;
-    letter-spacing: -0.04em;
-    padding: 12px 32px;
-    border: 1px solid var(--white);
-    border-radius: 1000px;
-    border-radius: 1000px;
+  list-style-type: none;
+  background-color: transparent;
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.04em;
+  padding: 12px 32px;
+  border: 1px solid var(--white);
+  border-radius: 1000px;
+  border-radius: 1000px;
 }
 
 .hero-strawberries_hashtags li:hover,
 .hero-strawberries_hashtags li:focus {
-    color: var(--green);
-    border-color: var(--green);
+  color: var(--green);
+  border-color: var(--green);
 }
 
 .hero_watermelon_pill_image {
@@ -145,68 +144,24 @@
 
 /* HERO REDHEAD ---------------------------------------------------------------- */
 
-.hero_redhead-wrapper {
-
-  width: 486px;
-  height: 742px;
-  border-radius: 500px;
+.hero_redhead:before {
+  content: "";
+  position: absolute;
+  top: -17px;
+  left: -17px;
+  width: calc(100% + 34px);
+  height: calc(100% + 34px);
+  border: 1px solid var(--white);
+  border-radius: calc(500px + 17px);
   box-sizing: border-box;
-  background-color: var(--white);
-  overflow: hidden;
-  position: relative;
 }
 
 .hero_redhead {
   width: 468px;
   height: 742px;
   border-radius: 500px;
-  position: relative;
-  border-style: dotted;
+  position:relative;
   border-color: var(--white);
-  padding: 17px;
-
-    width: 486px;
-    height: 742px;
-    box-sizing: border-box;
-    background-color: var(--white);
-    overflow: hidden;
-    position: relative;
-    border-radius: 500px;
-}
-
-.hero_redhead:before {
-    content: "";
-    position: absolute;
-    top: -17px;
-    left: -17px;
-    width: calc(100% + 34px);
-    height: calc(100% + 34px);
-    border: 1px solid var(--white);
-    border-radius: calc(500px + 17px);
-    box-sizing: border-box;
-    border-radius: 500px;
-}
-
-.hero_redhead:before {
-    content: "";
-    position: absolute;
-    top: -17px;
-    left: -17px;
-    width: calc(100% + 34px);
-    height: calc(100% + 34px);
-    border: 1px solid var(--white);
-    border-radius: calc(500px + 17px);
-    box-sizing: border-box;
-}
-
-.hero_redhead {
-    width: 468px;
-    height: 742px;
-    border-radius: 500px;
-    position:relative;
-    border-style: dotted;
-    border-color: var(--white);
-    padding: 17px;
 }
 
 .hero_redhead img {
@@ -214,7 +169,68 @@
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
+  
 }
+
+.hero_redhead-wrapper {
+  border-radius: 500px;
+  box-sizing: border-box;
+  background-color: var(--white);
+  overflow: hidden;
+  position: relative;
+  /* here 1 */
+  top: 100px;
+  left: 50%;
+    z-index: 0;
+}
+
+/* HERO CONTENT ---------------------------------------------------------------- */
+
+.hero_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 86px;
+}
+
+.hero h1 {
+  width: 898px;
+  height: 198px;
+  margin-top: 64px;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  align-items: center;
+    
+}
+
+.hero_blurred-bananas {
+  width: 183.21px;
+  height: 124.61px;
+  position: absolute;
+  top: 191px;
+  left: 180px;
+  transform: rotate(20deg);
+  z-index: 0;
+}
+
+.hero_blurred-strawberries {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 39px;
+  right: 232px;
+  z-index: 0;
+}
+
+
 
 /* BUTTON SHOP NOW --------------------------------------------------------------*/
 
@@ -236,8 +252,8 @@
   cursor: pointer;
   text-decoration: none;
   position: absolute;
-  bottom: -20px;
-  left: 35%;
+  bottom: -35px;
+  left: 40%;
 }
 
 .button_shop-now:hover,
@@ -245,11 +261,4 @@
   color: var(--green);
 }
 
-/* HERO CONTENT ---------------------------------------------------------------- */
-.hero_content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
 
-}

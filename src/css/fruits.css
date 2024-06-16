@@ -1,0 +1,173 @@
+
+.fruit-section {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.fruit-section-title-div {
+    margin-bottom: 44px;
+    max-width: 624px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fruit-section-title {
+    margin-bottom: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, .1);
+}
+
+.section-title-text {
+    text-align: center;
+    line-height: 1.29;
+    letter-spacing: -.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, .1);
+}
+
+.fruits-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 44px;
+    list-style-type: none;
+    max-width: 1215px;
+}
+
+.fruits-list-item {
+    max-width: 335px;
+    height: 465px;
+    width: 100%;
+    position: relative;
+}
+
+.fruits-list-item-box {
+    padding: 64px 20px 24px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 10px;
+}
+
+.fruits-list-item-box.strawberry {
+    background-color: #F8766B;
+}
+
+.fruits-list-item-box.banana {
+    background-color: #EDD251;
+}
+
+.fruits-list-item-box.watermelon {
+    background-color: #9DC262;
+}
+
+.fruits-list-item-box.lime {
+    background-color: #BFD663;
+}
+
+.fruits-list-item-box.apple {
+    background-color: #E93F29;
+}
+
+.fruits-list-item-box.peach {
+    background-color: #DB4F4B;
+}
+
+.fruits-list-item-box.plums {
+    background-color: #9B5366;
+}
+
+.fruits-list-item-box.orange {
+    background-color: #F47F4C;
+}
+
+.fruits-list-item-box.kiwi {
+    background-color: #98B37E;
+}
+
+.fruits-item-name {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 4px;
+    width: 163px;
+    height: 38px;
+    margin-top: 64px;
+    margin-left: 24px;
+}
+
+.fruits-item-name-title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -.04em;
+}
+
+.fruits-item-name-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -.02em;
+}
+
+.fruits-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price-button {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    width: 126px;
+    height: 42px;
+    padding: 12px 24px;
+    border-radius: 200px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -.04em;
+    color: #ae1332;
+    background-color: #ffffff;
+    transition: .4s cubic-bezier(.4, 0, .2, 1), background-color .4s cubic-bezier(.4, 0, .2, 1);
+}
+
+.order-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    gap: 4px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #9dc262;
+    letter-spacing: .04em;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: color .4s cubic-bezier(.4, 0, .2, 1), background-color .4s cubic-bezier(.4, 0, .2, 1), fill .4s cubic-bezier(.4, 0, .2, 1);
+}
