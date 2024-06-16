@@ -5,10 +5,10 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-
+  padding-left: 32px;
+  padding-right: 32px;
   background-color: var(--white);
   height: 50px;
-  padding: 11px 32px;
 }
 
 .menu {
@@ -42,11 +42,19 @@
 
 /* HERO PILLS------------------------------------------------------------------------ */
 
+.hero_two-pills {
+  display: flex;
+  justify-content: space-between;
+  gap: 658px;
+}
+
 .hero_watermelon_text {
   width: 222px;
   height: 108px;
   margin-bottom: 44px;
   margin-right: 27px;
+  margin-top: 146px;
+  /* margin-top: odleglosc tekstu of podstawy h1 rozpycha wysokosc calego hero. Inaczej SHOPNOW button sie ucina*/
 }
 
 .hero_watermelon_pill,
@@ -65,7 +73,10 @@
 
 .hero_strawberries_pill {
   background-color: var(--yellow);
-}
+  margin-top:74px; /* odleglosc od h1 */
+  margin-bottom: 44px;
+  }
+  
 
 .hero_watermelon_pill_title,
 .hero_strawberries_pill_title {
@@ -76,8 +87,15 @@
   letter-spacing: -0.04em;
 }
 
+.hero_strawberries {
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+  margin-right: 62px;
+}
+
 .hero-strawberries_hashtags {
-  width: 274px;  
+  display: flex;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -88,23 +106,31 @@
 }
 
 .hero-strawberries_hashtags li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
   list-style-type: none;
+  border: 1px solid var(--white);
+  border-radius: 1000px;
+
   background-color: transparent;
   color: var(--white);
   text-transform: uppercase;
-  font-family: 'DM Sans', sans-serif;
   font-size: 12px;
   letter-spacing: -0.04em;
-  padding: 12px 32px;
-  border: 1px solid var(--white);
-  border-radius: 1000px;
-  border-radius: 1000px;
+
+  box-shadow: 0px 4px 70px 0px #0000001A;
 }
 
 .hero-strawberries_hashtags li:hover,
 .hero-strawberries_hashtags li:focus {
   color: var(--green);
   border-color: var(--green);
+}
+
+.hero_watermelon {
+  margin-left: 62px;
 }
 
 .hero_watermelon_pill_image {
@@ -144,6 +170,15 @@
 
 /* HERO REDHEAD ---------------------------------------------------------------- */
 
+
+.hero_redhead {
+  width: 468px;
+  height: 742px;
+  border-radius: 500px;
+  position:relative;
+  border-color: var(--white);
+}
+
 .hero_redhead:before {
   content: "";
   position: absolute;
@@ -156,20 +191,16 @@
   box-sizing: border-box;
 }
 
-.hero_redhead {
-  width: 468px;
-  height: 742px;
-  border-radius: 500px;
-  position:relative;
-  border-color: var(--white);
-}
-
 .hero_redhead img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
-  
+}
+
+.redhead_container {
+  position: absolute;
+  top: 122px;
 }
 
 .hero_redhead-wrapper {
@@ -178,15 +209,13 @@
   background-color: var(--white);
   overflow: hidden;
   position: relative;
-  /* here 1 */
-  top: 100px;
-  left: 50%;
-    z-index: 0;
+  z-index: 0;
+
 }
 
 /* HERO CONTENT ---------------------------------------------------------------- */
 
-.hero_content {
+.hero_redhead_and_blurred-fruits {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,36 +227,39 @@
   height: 198px;
   margin-top: 64px;
   justify-content: center;
-  position: relative;
+  
   z-index: 1;
+  position: relative;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  position: relative;
+  
   text-align: center;
   align-items: center;
-    
+  position: relative;
 }
 
 .hero_blurred-bananas {
   width: 183.21px;
   height: 124.61px;
-  position: absolute;
+  
   top: 191px;
   left: 180px;
   transform: rotate(20deg);
   z-index: 0;
+  position: absolute;
 }
 
 .hero_blurred-strawberries {
   width: 120px;
   height: 120px;
-  position: absolute;
+  
   top: 39px;
   right: 232px;
   z-index: 0;
+  position: absolute;
 }
 
 
