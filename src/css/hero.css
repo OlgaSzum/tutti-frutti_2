@@ -96,7 +96,7 @@
     letter-spacing: -0.04em;
     padding: 12px 32px;
     border: 1px solid var(--white);
-    border-radius: 1,000px;
+    border-radius: 1000px;
    
 }
 
@@ -146,12 +146,23 @@
 .hero_redhead-wrapper {
     width: 486px;
     height: 742px;
-    border-radius: 500px;
     box-sizing: border-box;
     background-color: var(--white);
     overflow: hidden;
     position: relative;
-    
+    border-radius: 500px;
+}
+
+.hero_redhead:before {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    width: calc(100% + 34px);
+    height: calc(100% + 34px);
+    border: 1px solid var(--white);
+    border-radius: calc(500px + 17px);
+    box-sizing: border-box;
 }
 
 .hero_redhead {
@@ -159,9 +170,6 @@
     height: 742px;
     border-radius: 500px;
     position:relative;
-    border-style: dotted;
-    border-color: var(--white);
-    padding: 17px;
 }
 
 .hero_redhead img {
