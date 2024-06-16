@@ -180,6 +180,8 @@
   border-radius: inherit;
 }
 
+
+
 /* BUTTON SHOP NOW --------------------------------------------------------------*/
 
 .button_shop-now {
@@ -209,10 +211,27 @@
   color: var(--green);
 }
 
+
 /* HERO CONTENT ---------------------------------------------------------------- */
+
 .hero_content {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 86px;
+  position:relative;
+}
+.hero_blurred-bananas {
+  width: 183.21px;
+  height: 124.61px;
+  transform: rotate(-20deg);
+  /* position:absolute; */
+  top: 50%;
+  left: 50%;
+}
+
+.hero_blurred-strawberries {
+  width: 120px;
+  height: 120px;
+
 }
