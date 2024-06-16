@@ -30,10 +30,10 @@
   -webkit-text-size-adjust: 100%;
 
   --black: #000000;
-    --white: #FFFFFF;
-    --red: #AE1332;
-    --green: #A4CB66;
-    --yellow: #F5CE13;
+  --white: #ffffff;
+  --red: #ae1332;
+  --green: #a4cb66;
+  --yellow: #f5ce13;
 }
 
 @font-face {
@@ -53,9 +53,6 @@
 /* AUXILIARY CLASSES --------------------------------------------------------- */
 
 .container {
-  max-width: 1280px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;

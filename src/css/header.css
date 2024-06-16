@@ -1,12 +1,13 @@
-.header {
-  padding: 20px 0;
-}
-
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 40px;
+}
+
+.logo_pack-a {
+  display: flex;
+  gap: 8px;
 }
 
 .nav-link {
