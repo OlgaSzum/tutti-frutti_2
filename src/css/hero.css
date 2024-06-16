@@ -170,7 +170,6 @@
 
 /* HERO REDHEAD ---------------------------------------------------------------- */
 
-
 .hero_redhead {
   width: 468px;
   height: 742px;
@@ -226,15 +225,18 @@
   height: 198px;
   margin-top: 64px;
   justify-content: center;
-  
+  text-align: center;
+  letter-spacing: -0.04em;
+  align-items: center;
+  text-shadow: 0px 4px 70px var(--black); /* dark shadow but it's figma */
   z-index: 1;
   position: relative;
+  
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  
   text-align: center;
   align-items: center;
   position: relative;
@@ -254,7 +256,6 @@
 .hero_blurred-strawberries {
   width: 120px;
   height: 120px;
-  
   top: 39px;
   left: 80%;
   z-index: 0;
