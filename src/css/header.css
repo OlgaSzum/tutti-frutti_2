@@ -1,12 +1,13 @@
-.header {
-  padding: 20px 0;
-}
-
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 40px;
+}
+
+.logo_pack-a {
+  display: flex;
+  gap: 8px;
 }
 
 .nav-link {
@@ -18,4 +19,9 @@
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+}
+
+.topline_uil-cart {
+  width: 208px;
+  text-align: right;
 }
