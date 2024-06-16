@@ -1,5 +1,23 @@
-.lalala {
-    color: black;
-    background-color: black;
-    
-} 
+.footer {
+  width: 100%wh;
+  height: 297px;
+  background-color: white;
+  padding-top: 80px;
+  display: flex;
+}
+
+.logo_pack-a {
+  display: flex;
+  gap: 8px;
+}
+
+.footer_social_media {
+}
+
+.footer_menu_list_link {
+  color: #ae1332;
+}
+
+.footer_contacts-list {
+  color: #ae1332;
+}
