@@ -20,3 +20,8 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+.topline_uil-cart {
+  width: 208px;
+  text-align: right;
+}
