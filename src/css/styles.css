@@ -100,4 +100,5 @@ img {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  max-width: 1280px;
 }
