@@ -1,0 +1,15 @@
+.contacts_checkbox {
+  display: none;
+}
+
+.contacts_checkbox_modal-open-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
