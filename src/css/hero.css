@@ -89,7 +89,7 @@
     border: 1px solid var(--white);
     border-radius: 1000px;
     border-radius: 1000px;
-   
+
 }
 
 .hero-strawberries_hashtags li:hover,
@@ -136,12 +136,10 @@
 /* HERO REDHEAD ---------------------------------------------------------------- */
 
 .hero_redhead-wrapper {
-
   width: 486px;
   height: 742px;
   border-radius: 500px;
   box-sizing: border-box;
-  background-color: var(--white);
   overflow: hidden;
   position: relative;
 }
@@ -151,17 +149,7 @@
   height: 742px;
   border-radius: 500px;
   position: relative;
-  border-style: dotted;
-  border-color: var(--white);
-  padding: 17px;
-
-    width: 486px;
-    height: 742px;
-    box-sizing: border-box;
-    background-color: var(--white);
-    overflow: hidden;
-    position: relative;
-    border-radius: 500px;
+  
 }
 
 .hero_redhead:before {
@@ -169,35 +157,16 @@
     position: absolute;
     top: -17px;
     left: -17px;
-    width: calc(100% + 34px);
-    height: calc(100% + 34px);
-    border: 1px solid var(--white);
-    border-radius: calc(500px + 17px);
+    width: calc(100% + 34px); /* 17px on each side */
+    height: calc(100% + 34px); /* 17px on each side */
+    background: linear-gradient(to top, white, transparent);
+    border-radius: calc(500px + 17px); /* Adjust border-radius to include the margin */
     box-sizing: border-box;
-    border-radius: 500px;
-}
-
-.hero_redhead:before {
-    content: "";
-    position: absolute;
-    top: -17px;
-    left: -17px;
-    width: calc(100% + 34px);
-    height: calc(100% + 34px);
-    border: 1px solid var(--white);
-    border-radius: calc(500px + 17px);
-    box-sizing: border-box;
-}
-
-.hero_redhead {
-    width: 468px;
-    height: 742px;
-    border-radius: 500px;
-    position:relative;
-    border-style: dotted;
-    border-color: var(--white);
+    z-index: -1; /* Ensures it is behind the main content */
+    pointer-events: none; 
     padding: 17px;
 }
+
 
 .hero_redhead img {
   width: 100%;
