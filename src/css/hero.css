@@ -219,7 +219,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 86px;
 }
 
 .hero h1 {
@@ -246,7 +245,7 @@
   height: 124.61px;
   
   top: 191px;
-  left: 180px;
+  left: 10%;
   transform: rotate(20deg);
   z-index: 0;
   position: absolute;
@@ -257,7 +256,7 @@
   height: 120px;
   
   top: 39px;
-  right: 232px;
+  left: 80%;
   z-index: 0;
   position: absolute;
 }
