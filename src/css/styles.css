@@ -50,6 +50,50 @@
   font-style: normal;
 }
 
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--white);
+  background-color: var(--red);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* AUXILIARY CLASSES --------------------------------------------------------- */
 
 .container {
