@@ -69,6 +69,34 @@
   letter-spacing: -0.04em;
 }
 
+.hero-strawberries_hashtags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 4px;
+}
+
+.hero-strawberries_hashtags li {
+    list-style-type: none;
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: -0.04em;
+    padding: 12px 32px;
+    border: 1px solid var(--white);
+    border-radius: 1000px;
+   
+}
+
+.hero-strawberries_hashtags li:hover,
+.hero-strawberries_hashtags li:focus {
+    color: var(--green);
+    border-color: var(--green);
+}
+
 .hero_watermelon_pill_image {
   width: 200px;
   position: absolute;
@@ -107,6 +135,7 @@
 /* HERO REDHEAD ---------------------------------------------------------------- */
 
 .hero_redhead-wrapper {
+
   width: 486px;
   height: 742px;
   border-radius: 500px;
@@ -124,6 +153,36 @@
   border-style: dotted;
   border-color: var(--white);
   padding: 17px;
+
+    width: 486px;
+    height: 742px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    overflow: hidden;
+    position: relative;
+    border-radius: 500px;
+}
+
+.hero_redhead:before {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: -17px;
+    width: calc(100% + 34px);
+    height: calc(100% + 34px);
+    border: 1px solid var(--white);
+    border-radius: calc(500px + 17px);
+    box-sizing: border-box;
+}
+
+.hero_redhead {
+    width: 468px;
+    height: 742px;
+    border-radius: 500px;
+    position:relative;
+  
+  
+
 }
 
 .hero_redhead img {
