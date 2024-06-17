@@ -19,7 +19,19 @@
     flex-direction: row;
     justify-content: center;
     background-color: var(--green);
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
 }
+.contacts_checkbox {
+    display: none;
+  }
 
 .contacts_images {
     z-index: 0;
