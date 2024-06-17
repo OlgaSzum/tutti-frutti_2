@@ -145,6 +145,11 @@
     transition: .4s cubic-bezier(.4, 0, .2, 1), background-color .4s cubic-bezier(.4, 0, .2, 1);
 }
 
+.price-button:hover{
+    background-color: #ae1332;
+    color: #FFFFFF;
+}
+
 .order-button {
     display: flex;
     flex-direction: row;
@@ -171,6 +176,17 @@
     cursor: pointer;
     transition: color .4s cubic-bezier(.4, 0, .2, 1), background-color .4s cubic-bezier(.4, 0, .2, 1), fill .4s cubic-bezier(.4, 0, .2, 1);
     transform: rotate(-30deg); 
+}
+
+.order-button:hover{
+    background-color: #FFFFFF;
+    color: #9DC262;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.order-button:hover .order-icon{
+    fill: #9DC262;
+    transition: fill 0.3s ease;
 }
 
 .order-modal {
