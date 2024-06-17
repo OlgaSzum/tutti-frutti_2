@@ -8,12 +8,13 @@
     letter-spacing: -0.04em;
     margin: auto;
     color: #FFFFFF;
-    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px var(--black);
     font-size: 14px;
 }
 
 .contacts_heading {
     width: 740px;
+    font-weight: 500px;
     font-size: 64px;
     height: 128px;
     letter-spacing: -0.04em;
