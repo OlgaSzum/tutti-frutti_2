@@ -100,31 +100,33 @@
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  
-  margin-top: 20px;
+  width: 61px;
+  margin-top: 44px;
   gap: 4px;
 }
 
 .hero-strawberries_hashtags li {
+  list-style-type: none;
+}
+
+.hero-strawberries_hashtags h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 12px 32px;
-  list-style-type: none;
+  margin: 0;
   border: 1px solid var(--white);
   border-radius: 1000px;
-
   background-color: transparent;
   color: var(--white);
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: -0.04em;
-
   box-shadow: 0px 4px 70px 0px #0000001A;
 }
 
-.hero-strawberries_hashtags li:hover,
-.hero-strawberries_hashtags li:focus {
+.hero-strawberries_hashtags h3:hover,
+.hero-strawberries_hashtags h3:focus {
   color: var(--green);
   border-color: var(--green);
 }
@@ -288,9 +290,17 @@
   left: 40%;
 }
 
+.button_shop-now a {
+  text-decoration: none;
+  color: var(--red);
+}
+
 .button_shop-now:hover,
 .button_shop-now:focus {
   color: var(--green);
 }
 
-
+.button_shop-now:hover a,
+.button_shop-now:focus a {
+  color: var(--green);
+}
