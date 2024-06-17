@@ -63,6 +63,7 @@
 .contacts_checkbox:checked ~ .modal-thank-you {
   display: block;
 }
+
 .modal-thank-you_image {
   background-color: #e03f5e;
   width: 278px;
