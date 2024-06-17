@@ -56,6 +56,7 @@
   margin-top: 146px;
   /* margin-top: odleglosc tekstu of podstawy h1 rozpycha wysokosc calego hero. Inaczej SHOP NOW button sie ucina*/
   text-align: left;
+  text-shadow: 0px 4px 70px var(--black);
 }
 
 .hero_watermelon_pill,
@@ -86,6 +87,7 @@
   top: 28px;
   position: absolute;
   letter-spacing: -0.04em;
+  text-shadow: 0px 4px 70px var(--black);
 }
 
 .hero_strawberries_container {
@@ -170,6 +172,7 @@
   bottom: 40px;
   margin: 0;
   padding: 0 10px;
+  text-shadow: 0px 4px 70px var(--black);
 }
 
 /* HERO REDHEAD ---------------------------------------------------------------- */
@@ -290,6 +293,7 @@
   position: absolute;
   bottom: -35px;
   left: 40%;
+  text-shadow: 0px 4px 70px var(--black);
 }
 
 .button_shop-now a {
