@@ -170,4 +170,12 @@
     text-shadow: 0px 4px 70px rgba(0, 0, 0, .1);
     cursor: pointer;
     transition: color .4s cubic-bezier(.4, 0, .2, 1), background-color .4s cubic-bezier(.4, 0, .2, 1), fill .4s cubic-bezier(.4, 0, .2, 1);
+    transform: rotate(-30deg); 
 }
+
+.order-modal {
+    display: none;
+}
+
+
+
