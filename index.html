@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/tutti-frutti_2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-2b7fc8eb.css">
+    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-435604e8.css">
   </head>
   <body>
     <header class="header">
@@ -314,7 +314,37 @@
     
     <p class="text">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
 
-        <form><input class="contact_input" type="email" name="email" /><button class="send-button" type="button">Send</button> </form>
+    <form><input class="contact_input" type="email" name="email" /><label for="contacts_checkbox_id" class="send-button"
+      >Send</label
+    >
+    <input type="checkbox" id="contacts_checkbox_id" class="contacts_checkbox" />
+    <div class="modal-thank-you">
+  <div class="modal-thank-you_content">
+    <label
+      for="contacts_checkbox_id"
+      class="modal-thank-you_content_close-button"
+      ><svg class="modal-thank-you_content_close-button_svg">
+        <use href="/tutti-frutti_2/assets/icons-86f53ad2.svg#icon-x"></use>
+      </svg>
+    </label>
+    <div class="modal-thank-you_image">
+      <img
+        src="/tutti-frutti_2/assets/raspberry-fruit-desktop-d9610ea1.png"
+        alt="Raspberries"
+        class="modal-thank-you_content_image"/>
+    </div>
+
+    <div class="modal-thank-you_text">
+      <h2 class="modal-thank-you_content_heading">THANK YOU</h2>
+      <p>Thank you for your order! Our team is preparing your box with fresh,
+        delicious fruits and vegetables, and we'll deliver it straight to your
+        doorstep. We appreciate your business and look forward to providing you
+        with the best possible experience!</p>
+    </div>
+  </div>
+</div>
+
+     </form> 
 
     </div>
     </section>
