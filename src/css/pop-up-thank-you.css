@@ -47,7 +47,7 @@
   padding: 0;
 }
 .modal-thank-you_content_close-button {
-  color: #fff;
+  color: var(--white);
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -80,8 +80,8 @@
 }
 
 .modal-thank-you_content_close-button_svg {
-  color: #fff;
-  fill: #fff;
+  color: var(--white);
+  fill: var(--white);
   width: 28px;
   height: 28px;
 }
