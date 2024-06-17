@@ -26,7 +26,7 @@ ul {
   font-size: 40px;
   line-height: 1.1;
   text-transform: uppercase;
-  max-width: 624px;
+  max-width: 700px;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin: auto;
   letter-spacing: -0.04em;
@@ -94,7 +94,7 @@ ul {
   color: #000000;
   letter-spacing: -0.04em;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  max-width: 199px;
+  max-width: 169px;
 }
 
 .how-it-works_gif {
