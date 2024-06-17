@@ -1,17 +1,25 @@
-.text {
+.contacts_text {
     width: 492px;
     height: 54px;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.29;
     letter-spacing: -0.04em;
     margin: auto;
+    color: #FFFFFF;
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 14px;
 }
 
 .contacts_heading {
     width: 740px;
+    font-size: 64px;
     height: 128px;
+    letter-spacing: -0.04em;
     z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .send-button {
@@ -19,18 +27,24 @@
     flex-direction: row;
     justify-content: center;
     background-color: var(--green);
+    border-radius: 100px;
+    gap: 15px;
+
 }
 
 .contacts_images {
     z-index: 0;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
 }
 
 .contact_input {
-    
-}
-
-.fresh-box {
-display: flex;
+    font-family: inherit;
+    border-color: #FFFFFF;
+    border-radius: 100px;
+    border: 1px;
+    border-width: 292px;
 }
 
 .fresh-box img {
