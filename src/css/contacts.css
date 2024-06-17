@@ -14,11 +14,12 @@
 
 .contacts_heading {
     width: 740px;
-    font-weight: 500px;
     font-size: 64px;
     height: 128px;
     letter-spacing: -0.04em;
     z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .send-button {
@@ -35,6 +36,7 @@
     z-index: 0;
     display: flex;
     border-radius: 20px;
+    justify-content: center;
 }
 
 .contact_input {
