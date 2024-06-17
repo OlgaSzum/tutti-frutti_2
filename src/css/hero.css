@@ -54,7 +54,8 @@
   margin-bottom: 44px;
   margin-right: 27px;
   margin-top: 146px;
-  /* margin-top: odleglosc tekstu of podstawy h1 rozpycha wysokosc calego hero. Inaczej SHOPNOW button sie ucina*/
+  /* margin-top: odleglosc tekstu of podstawy h1 rozpycha wysokosc calego hero. Inaczej SHOP NOW button sie ucina*/
+  text-align: left;
 }
 
 .hero_watermelon_pill,
@@ -96,13 +97,14 @@
 
 .hero-strawberries_hashtags {
   display: flex;
-  display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  width: 61px;
+  width: 306px;
+  height: 99px;
   margin-top: 44px;
-  gap: 4px;
+  gap: 8px;
+  
 }
 
 .hero-strawberries_hashtags li {
