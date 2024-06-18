@@ -14,7 +14,6 @@
 } 
 
 .modal-order_content {
-    
     padding: 20px;
     border-radius: 20px;
     
@@ -34,6 +33,8 @@
     right: 10px;
     font-size: 20px;
     cursor: pointer;
+    fill:var(--red);
+    /* kolor iksa jest ustawiony w icons.svg na white */
 }
 
 .order-modal:checked + .order-button + .modal-order {
@@ -43,7 +44,6 @@
 .modal-order_content_close-button_svg{
     width: 28px;
     height: 28px;
-
 }
 
 .modal-order_content_header{
@@ -56,7 +56,7 @@
 
 /* CARDS -------------------------------------------------------------- */
 
-.modal-order_content_cards{
+.modal-order_content_cards {
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -84,32 +84,31 @@
 
 /* FORM ---------------------------------------------------------------- */
 
-.modal-order_form {
-    width: 360px;
-    height: 331px;
-    padding: 0 50px;
-    margin-top: 40px;
+.modal-order-form {
+    position: relative;
+    margin: 0 auto;
 }
 
-.modal-order-form-wrapper {
-    display: flex;
-    position: relative;
+.modal-order-input_wrapper {
     max-width: 360px;
-    max-height: 399px;
-    margin: 0 auto;
+    max-height: 331px;
+    margin-bottom: 14px;
 }
 
 .modal-order-input {
     width: 360px;
     height: 48px;
     border-radius: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     background: transparent;
     padding: 15px 24px;
     font-family: 'DM Sans', sans-serif;
-    color: var(--black);
-    opacity: 50%;
+    color: #000000;
+    opacity: 1;
     margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 18px;
+    
 }
 
 .modal-order-input::placeholder {
@@ -119,4 +118,20 @@
 /* Styl placeholdera, gdy input jest w fokuse */
 .modal-order-input:focus::placeholder {
     color: transparent;
+}
+
+.btn_modal_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    width: 114px;
+    height: 48px;
 }
