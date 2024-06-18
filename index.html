@@ -7,16 +7,16 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/tutti-frutti_2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-7b7e2522.css">
+    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-81029f06.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <nav class="topline">
       <ul class="menu">
-        <li><a href="#">How It Works</a></li>
-        <li><a id="Fruits" href="#">Fruits</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a id="Fruits" href="#organic-fruits">Fruits</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
       <div class="logo_pack">
         <a href="index.html" class="logo_pack-a">
@@ -98,7 +98,7 @@
 
     <!-- HOW IT WORKS --------------------------------------------------------->
 
-<section class="container section_how-it-works">
+<section class="container section_how-it-works" id="how-it-works">
   <div class="how-it-works">
     <h2 class="how-it-works_heading">
       To order your fruit basket, simply follow these easy steps
@@ -350,7 +350,7 @@
     </div>
 </section>
     <!-- CONTACTS ------------------------------------------------------------->
-<section class="container">
+<section class="container" id="contacts">
   <div class="contacts_section">
     <h2 class="contacts_heading">Fresh harvest box has got you covered</h2>
 
@@ -426,7 +426,7 @@
     <div class="footer_image_and_logo">
       <div class="footer_image">
         <img
-          src="img/footer/smile-women-desktop.jpg"
+          src="/tutti-frutti_2/assets/smile-women-desktop-9f572ec4.jpg"
           alt="smile women with banana"
           width="349px"
         />
@@ -442,9 +442,15 @@
     </div>
     <div class="footer_menu">
       <ul class="footer_menu_list">
-        <li><a class="footer_menu_list_link" href="#">How It Works</a></li>
-        <li><a class="footer_menu_list_link" href="#">Fruits</a></li>
-        <li><a class="footer_menu_list_link" href="#">Contacts</a></li>
+        <li>
+          <a class="footer_menu_list_link" href="#how-it-works">How It Works</a>
+        </li>
+        <li>
+          <a class="footer_menu_list_link" href="#organic-fruits">Fruits</a>
+        </li>
+        <li>
+          <a class="footer_menu_list_link" href="#contacts">Contacts</a>
+        </li>
       </ul>
     </div>
     <div class="footer_social_media_and_address">
@@ -487,8 +493,15 @@
       </div>
       <address class="footer_contacts">
         <ul class="footer_contacts-list">
-          <li>+380 (68) 443-94-26</li>
-          <li>1678 S. Pioneer Road Salt Lake City UT 84104</li>
+          <li class="footer_contacts-list_margin">
+            <a class="footer_contacts_link" href="">+380 (68) 443-94-26</a>
+          </li>
+          <li>
+            <a class="footer_contacts_link" href="">
+              1678 S. Pioneer Road Salt Lake City <br />
+              UT 84104</a
+            >
+          </li>
         </ul>
       </address>
     </div>
