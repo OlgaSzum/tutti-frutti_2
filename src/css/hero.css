@@ -196,8 +196,8 @@
   box-sizing: border-box;
   /* below the gradient border but SQUARED!!! */
   /* zakomentuj dwie linijki ponizej aby zobaczyc okragla ramke */
-  border-image-source: linear-gradient(359.94deg, #FFFFFF -1.7%, rgba(255, 255, 255, 0.441769) 30.64%, rgba(255, 255, 255, 0) 76.92%);
-    border-image-slice: 1;
+  /* border-image-source: linear-gradient(359.94deg, #FFFFFF -1.7%, rgba(255, 255, 255, 0.441769) 30.64%, rgba(255, 255, 255, 0) 76.92%);
+    border-image-slice: 1; */
 }
 
 .hero_redhead_image {
