@@ -102,7 +102,7 @@ img {
     max-width: 768px;
   }
 
-  /*footer responsywnosc*/
+  /*footer responsywnosc tablet*/
 
   .footer {
     height: 395px;
@@ -127,13 +127,27 @@ img {
     margin-left: 171px;
   }
 
-  /*footer responsywnosc*/
+  /*footer responsywnosc tablet*/
+
+  /*how it works responsywnosc tablet*/
+
+  .how-it-works_steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-it-works_gif {
+    width: 704px;
+  }
+  /*how it works responsywnosc tablet*/
 }
 
 @media (max-width: 767px) {
   .container {
     max-width: 375px;
   }
+
+  /*footer responsywnosc mobile*/
 
   .footer {
     height: 546px;
@@ -171,4 +185,38 @@ img {
   .footer_contacts-list {
     text-align: center;
   }
+
+  /*footer responsywnosc mobile*/
+
+  /*how it works responsywnosc mobile*/
+
+  .section_how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-it-works {
+    width: 335px;
+  }
+
+  .how-it-works_heading {
+    font-size: 28px;
+  }
+
+  .how-it-works_steps {
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+  }
+
+  .how-it-works_step {
+    width: 295px;
+    padding: 20px;
+  }
+
+  .how-it-works_gif {
+    width: 335px;
+  }
+  /*how it works responsywnosc mobile*/
 }
