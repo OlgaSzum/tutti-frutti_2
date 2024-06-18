@@ -34,7 +34,6 @@
     font-size: 20px;
     cursor: pointer;
     fill:var(--red);
-    /* kolor iksa jest ustawiony w icons.svg na white */
 }
 
 .order-modal:checked + .order-button + .modal-order {
@@ -105,7 +104,6 @@
     font-family: 'DM Sans', sans-serif;
     color: #000000;
     opacity: 1;
-    margin-bottom: 14px;
     font-size: 14px;
     line-height: 18px;
     
