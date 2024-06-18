@@ -30,12 +30,18 @@
 }
 
 .footer_menu {
+  margin-top: 84px;
   margin-left: 243px;
   margin-right: 232px;
 }
 
 .footer_menu_list_link {
   color: #ae1332;
+}
+
+.footer_menu_list_link:hover,
+.footer_menu_list_link:focus {
+  color: #a4cb66;
 }
 
 .footer_menu_list {
@@ -46,9 +52,20 @@
 .footer_contacts-list {
   color: #ae1332;
   font-size: 18px;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.footer_contacts-list_margin {
+  margin-bottom: 20px;
 }
 
 .footer_social_media_and_address {
   display: inline-block;
   max-width: 184px;
+}
+
+.footer_contacts_link {
+  color: #ae1332;
+  cursor: pointer;
+  font-style: normal;
 }
