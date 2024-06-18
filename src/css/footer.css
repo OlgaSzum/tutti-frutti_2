@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.footer_image_and_menu {
+  display: flex;
+}
+
 .footer_image_and_logo {
   display: flex;
   align-items: center;
