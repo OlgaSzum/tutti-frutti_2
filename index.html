@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/tutti-frutti_2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-78f30ef0.css">
+    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-017afd41.css">
   </head>
   <body>
     <header class="header">
@@ -302,7 +302,7 @@
         <div class="modal-order">
     <div class="modal-order_content">
 
-
+        
         <label for="order-modal" class="close-button"><svg class="modal-order_content_close-button_svg">
             <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-x-red"></use>
           </svg></label>
@@ -320,23 +320,27 @@
       
 
             <form name="modal-order-form" class="modal-order-form">
-                <div class="modal-order-form-wrapper">
-                    <input id="user_name" type="text" name="name" placeholder="Enter full name..." class="modal-order-input" required />
-                    <label class="form-buy-label" for="user_name">Name</label>
+                <div class="modal-order-input_wrapper"></div>
+                <div >
+                    <input id="name" type="text" name="name" placeholder="Enter full name..." class="modal-order-input" required />
                 </div>
             
-                <div class="form-buy-wrapper">
-                    <input id="phone_number" type="text" name="phone_number" placeholder="Enter email..." class="modal-order-input" pattern="\d*"
-                        minlength="9" maxlength="12" required>
-                    <label for="phone_number" class="form-buy-label">Phone</label>
+                <div>
+                    <input id="email" type="text" name="phone_number" placeholder="Enter email..." class="modal-order-input" >
+                </div>
+
+                <div>
+                    <input id="card" type="text" name="phone_number" placeholder="Enter card..." class="modal-order-input">
                 </div>
             
-                <div class="form-buy-wrapper">
-                    <textarea name="comment" id="comment" placeholder="Enter card..." class="modal-order-input buy-now-comment"></textarea>
-                    <label for="comment" class="form-buy-label">Comment</label>
+                <div>
+                    <textarea name="comment" id="comment" placeholder="Enter comments..." class="modal-order-input"></textarea>
                 </div>
-                <div class="buy-now-btn-wrapper">
-                    <button type="submit" class="form-buy-btn">Submit</button>
+                
+
+                <div>
+                    <button type="submit" class="btn_modal_submit">Submit</button>
+                </div>
                 </div>
             </form>
             
