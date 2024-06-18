@@ -130,7 +130,7 @@ img {
   /*footer responsywnosc*/
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .container {
     max-width: 375px;
   }
