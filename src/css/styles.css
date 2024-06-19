@@ -141,9 +141,25 @@ img {
   }
   /*how it works responsywnosc tablet*/
 
-  /*header responsywnosc tablet*/
+  /*organic fruits responsywnosc tablet*/
+  .fruit-section-title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  /*header responsywnosc tablet*/
+  .fruit-section-title {
+    font-size: 40px;
+  }
+
+  .section-title-text {
+    width: 547px;
+  }
+
+  .kiwi-visible {
+    display: none;
+  }
+  /*organic fruits responsywnosc tablet*/
 }
 
 @media (max-width: 767px) {
