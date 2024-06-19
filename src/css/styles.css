@@ -364,6 +364,7 @@ img {
     margin-top: 40px;
   }
   .contacts_heading {
+    z-index: 1;
     width: 335px;
     font-size: 32px;
     left: 20px;
@@ -428,6 +429,7 @@ img {
   /*modal-order responsywnosc mobile*/
   .modal-order {
     width: 375px;
+    z-index: 2;
   }
 
   .modal-order_content_header {
