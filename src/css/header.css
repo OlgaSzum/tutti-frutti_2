@@ -60,6 +60,10 @@
   gap: 16px;
 }
 
+.menu_modal_color {
+  color: white;
+}
+
 /*.modal-btn {
   position: absolute;
   top: 24px;
@@ -94,5 +98,5 @@
 }
 
 .uil-cart-modal {
-  background-color: white;
+  filter: brightness(0) invert(1);
 }
