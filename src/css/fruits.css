@@ -127,6 +127,17 @@
     height: auto;
 }
 
+.fruits-oval{
+    width: 195px;
+        height: 38px;
+        top: 237px;
+        gap: 0px;
+        opacity: 0.1px;
+        background-color: transparent;
+        max-width: 100%;
+        padding-left: 43.5px;
+}
+
 .price-button {
     position: absolute;
     left: 24px;
