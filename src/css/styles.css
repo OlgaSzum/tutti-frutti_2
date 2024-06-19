@@ -424,4 +424,43 @@ img {
     margin: 0;
   }
   /*hero responsywnosc mobile*/
+
+  /*modal-order responsywnosc mobile*/
+  .modal-order {
+    width: 375px;
+  }
+
+  .modal-order_content_header {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 20px;
+  }
+
+  .close-button {
+    top: 20px;
+    right: 20px;
+  }
+
+  .modal-order_content {
+    width: 375px;
+    background-image: none;
+    padding: 0;
+  }
+
+  .modal-order_content_cards {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .card {
+    width: 295px;
+    height: 119px;
+  }
+
+  .modal-order-input {
+    width: 295px;
+    padding: 15px 18px;
+    margin: 7px 20px;
+  }
+  /*modal-order responsywnosc mobile*/
 }
