@@ -163,9 +163,6 @@ img {
 
   /*organic fruits responsywnosc tablet*/
 
-  .contacts_section {
-  }
-
   .contacts_heading {
     font-size: 54px;
   }
@@ -310,5 +307,42 @@ img {
   .fruit-visible {
     display: none;
   }
+
+  .order-button {
+    width: 80px;
+    height: 80px;
+  }
   /*organic fruits responsywnosc mobile*/
+
+  /*contacts responsywnosc mobile*/
+
+  .contacts_section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .contacts_heading {
+    width: 335px;
+    font-size: 32px;
+    left: 20px;
+    padding-top: 37px;
+  }
+
+  .contacts_images {
+    display: none;
+  }
+
+  .contacts_images_mobile {
+    display: block;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .contact_form {
+    display: none;
+  }
+  /*contacts responsywnosc mobile*/
 }

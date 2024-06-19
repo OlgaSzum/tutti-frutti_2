@@ -66,6 +66,7 @@
 .fresh-box {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 .fresh-box img {
