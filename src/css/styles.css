@@ -247,4 +247,9 @@ img {
     flex-direction: row-reverse;
   }
   /*header responsywnosc mobile*/
+
+  /*header mobile responzywnosc*/
+  .header-mobile-nav {
+    display: block;
+  }
 }
