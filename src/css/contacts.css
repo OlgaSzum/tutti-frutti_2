@@ -44,6 +44,7 @@
   border: none;
   border-radius: 100px;
   text-align: center;
+  align-items: center;
   width: 82px;
   height: 28px;
 }
@@ -93,4 +94,8 @@
 
 .contact_input:placeholder-shown {
   border: none;
+}
+
+.contacts_images_tablet {
+  display: none;
 }

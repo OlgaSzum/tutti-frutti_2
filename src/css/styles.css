@@ -160,6 +160,43 @@ img {
     display: none;
   }
   /*organic fruits responsywnosc tablet*/
+
+  /*organic fruits responsywnosc tablet*/
+
+  .contacts_section {
+  }
+
+  .contacts_heading {
+    font-size: 54px;
+  }
+
+  .fresh-box-img {
+    width: 344px;
+    height: 480px;
+    padding: 8px;
+  }
+
+  .contacts_images {
+    display: none;
+  }
+
+  .contacts_images_tablet {
+    display: block;
+  }
+
+  .contacts_images_tablet_img {
+    width: 344px;
+    height: 480px;
+  }
+
+  .fresh-box-tablet {
+    gap: 16px;
+  }
+
+  .text {
+    width: 489px;
+  }
+  /*organic fruits responsywnosc tablet*/
 }
 
 @media (max-width: 767px) {
