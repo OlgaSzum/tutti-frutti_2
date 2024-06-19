@@ -194,6 +194,27 @@ img {
     width: 489px;
   }
   /*organic fruits responsywnosc tablet*/
+
+  /*hero responsywnosc tablet*/
+  .hero_heading {
+    max-width: 704px;
+    max-height: 168px;
+    font-size: 50px;
+  }
+
+  .hero_two-pills {
+    gap: 158px;
+    margin-top: 600px;
+  }
+
+  .hero_strawberries_container {
+    margin-top: 70px;
+  }
+
+  .hero_blurred-bananas {
+    left: 0;
+  }
+  /*hero responsywnosc tablet*/
 }
 
 @media (max-width: 767px) {
