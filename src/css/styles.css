@@ -140,6 +140,10 @@ img {
     width: 704px;
   }
   /*how it works responsywnosc tablet*/
+
+  /*header responsywnosc tablet*/
+
+  /*header responsywnosc tablet*/
 }
 
 @media (max-width: 767px) {
@@ -194,6 +198,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 80px 0;
   }
 
   .how-it-works {
@@ -219,4 +224,27 @@ img {
     width: 335px;
   }
   /*how it works responsywnosc mobile*/
+
+  /*header responsywnosc mobile*/
+  .menu {
+    display: none;
+  }
+
+  .logo_pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topline_uil-cart {
+    display: none;
+  }
+
+  .topline_uil-cart_mobile {
+    width: 108px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /*header responsywnosc mobile*/
 }

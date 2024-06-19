@@ -25,3 +25,7 @@
   width: 208px;
   text-align: right;
 }
+
+.topline_uil-cart_mobile {
+  display: none;
+}
