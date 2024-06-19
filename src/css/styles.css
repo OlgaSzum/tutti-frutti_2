@@ -216,6 +216,25 @@ img {
     left: 0;
   }
   /*hero responsywnosc tablet*/
+
+  /*modal-order responsywnosc tablet*/
+  .modal-order_content {
+    width: 768px;
+    padding: 0;
+  }
+
+  .close-button {
+    right: 20px;
+  }
+
+  .modal-order_content {
+    background-position: right -157px bottom;
+  }
+
+  .modal-order-form {
+    margin: 0 40px;
+  }
+  /*modal-order responsywnosc tablet*/
 }
 
 @media (max-width: 767px) {
