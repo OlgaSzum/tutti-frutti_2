@@ -268,4 +268,10 @@ img {
   .header-mobile-nav {
     display: block;
   }
+
+  /*organic fruits responsywnosc mobile*/
+  .fruit-visible {
+    display: none;
+  }
+  /*organic fruits responsywnosc mobile*/
 }
