@@ -1,135 +1,178 @@
-
 .modal-order {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-   
-    padding-top: 5px;
-    justify-content: center;
-    align-items: center;
-} 
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
 
 .modal-order_content {
-    padding: 20px;
-    border-radius: 20px;
-    
-    position: relative;
-    width: 891px;
-    height: 911px;
-    background-image: url(../img/pop-up-your-order/women-with-banana-desktop.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 471px 458px;
-    background-color: #fff;
+  border-radius: 20px;
+
+  position: relative;
+  width: 891px;
+
+  background-image: url(../img/pop-up-your-order/women-with-banana-desktop.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 471px 458px;
+  background-color: #fff;
 }
 
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    fill:var(--red);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  fill: var(--red);
 }
 
 .order-modal:checked + .order-button + .modal-order {
-    display: flex;
+  display: flex;
 }
 
-.modal-order_content_close-button_svg{
-    width: 28px;
-    height: 28px;
+.modal-order_content_close-button_svg {
+  width: 28px;
+  height: 28px;
 }
 
-.modal-order_content_header{
-    color: var(--red);
-    font-size: 40px;
-    margin-top: 40px;
-    margin-left: 40px;
-    line-height: 44px;
+.modal-order_content_header {
+  color: var(--red);
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  line-height: 44px;
 }
 
 /* CARDS -------------------------------------------------------------- */
 
 .modal-order_content_cards {
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px;
 }
 
 .card {
-    width: 257px;
-    height: 308px;
-    border-radius: 20px;
+  width: 257px;
+  height: 308px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.modal-order_content_checkbox {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.modal-order_content_card_header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.modal-order_content_card_paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+.modal-order_content_card_img {
+  display: inline-block;
+}
+
+.modal-order_content_card_div_img {
+  text-align: center;
+  margin: auto;
 }
 
 .modal-order_content_strawberry {
-    background-color: #F8766B;
+  background-color: #f8766b;
 }
 
 .modal-order_content_apple {
-    background-color: #EDD251;
+  background-color: #edd251;
 }
 
 .modal-order_content_fruits {
-    background-color: #9DC262;
+  background-color: #9dc262;
 }
 
 /* FORM ---------------------------------------------------------------- */
 
 .modal-order-form {
-    position: relative;
-    margin: 0 auto;
+  max-width: 360px;
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
-.modal-order-input_wrapper {
-    max-width: 360px;
-    max-height: 331px;
-    margin-bottom: 14px;
+.modal-order-form_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 20px;
 }
 
 .modal-order-input {
-    width: 360px;
-    height: 48px;
-    border-radius: 100px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    background: transparent;
-    padding: 15px 24px;
-    font-family: 'DM Sans', sans-serif;
-    color: #000000;
-    opacity: 1;
-    font-size: 14px;
-    line-height: 18px;
-    
+  width: 360px;
+  height: 48px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: transparent;
+  padding-left: 24px;
+  font-family: 'DM Sans', sans-serif;
+  color: #000000;
+  opacity: 1;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.modal-order-input_textarea {
+  width: 360px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: transparent;
+  padding-left: 24px;
+  padding-top: 15px;
+  font-family: 'DM Sans', sans-serif;
+  color: #000000;
+  opacity: 1;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .modal-order-input::placeholder {
-    color: rgba(0, 0, 0, 0.5);;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Styl placeholdera, gdy input jest w fokuse */
 .modal-order-input:focus::placeholder {
-    color: transparent;
+  color: transparent;
 }
 
 .btn_modal_submit {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--green);
-    padding: 10px 20px;
-    color: white;
-    cursor: pointer;
-    border: none;
-    border-radius: 100px;
-    text-align: center;
-    width: 114px;
-    height: 48px;
+  background-color: var(--green);
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  text-align: center;
+  width: 114px;
+  height: 48px;
 }
