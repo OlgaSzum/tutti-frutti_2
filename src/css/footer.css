@@ -3,6 +3,9 @@
   height: 297px;
   background-color: white;
   padding-top: 80px;
+}
+
+.footer_div {
   display: flex;
 }
 

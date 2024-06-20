@@ -246,6 +246,10 @@ img {
 
   .footer {
     height: 546px;
+  }
+
+  .footer_div {
+    height: 546px;
     flex-wrap: wrap;
     justify-content: center;
   }
