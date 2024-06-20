@@ -447,8 +447,9 @@ img {
 
   /*modal-order responsywnosc mobile*/
   .modal-order {
-    width: 375px;
+    width: 335px;
     z-index: 2;
+    left: unset;
   }
 
   .modal-order_content_header {
@@ -501,8 +502,7 @@ img {
   }
 
   .modal-order-input {
-    width: 295px;
-    margin: 7px 20px;
+    width: 271px;
   }
 
   .modal-order-form {
@@ -511,11 +511,11 @@ img {
 
   .modal-order-form_wrapper {
     width: 295px;
+    padding: 20px;
   }
 
   .modal-order-input_textarea {
-    width: 295px;
-    margin: 7px 20px;
+    width: 271px;
   }
 
   .btn_modal_submit {
