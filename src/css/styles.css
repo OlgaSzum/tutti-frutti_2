@@ -219,20 +219,35 @@ img {
 
   /*modal-order responsywnosc tablet*/
   .modal-order_content {
-    width: 768px;
+    width: 704px;
     padding: 0;
+    background-position: right -175px bottom;
   }
 
   .close-button {
     right: 20px;
   }
 
-  .modal-order_content {
-    background-position: right -157px bottom;
+  .card {
+    width: 200px;
+    height: 250px;
   }
 
-  .modal-order-form {
-    margin: 0 40px;
+  .modal-order_content_card_header {
+    font-size: 18px;
+  }
+
+  .modal-order_content_img_tablet {
+    display: block;
+  }
+
+  .modal-order_content_img_desktop {
+    display: none;
+  }
+
+  .modal-order_content_card_div_img {
+    display: flex;
+    justify-content: center;
   }
   /*modal-order responsywnosc tablet*/
 }
@@ -456,6 +471,14 @@ img {
   .modal-order_content_cards {
     flex-direction: column;
     margin: 20px;
+  }
+
+  .modal-order_content_img_mobile {
+    display: block;
+  }
+
+  .modal-order_content_img_desktop {
+    display: none;
   }
 
   .card {

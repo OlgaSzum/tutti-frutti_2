@@ -176,3 +176,8 @@
   width: 114px;
   height: 48px;
 }
+
+.modal-order_content_img_tablet,
+.modal-order_content_img_mobile {
+  display: none;
+}
