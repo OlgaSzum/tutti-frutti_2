@@ -443,6 +443,13 @@ img {
   .hero_watermelon_container {
     margin: 0;
   }
+
+  .hero_blurred-bananas {
+    width: 66px;
+    height: 44px;
+    top: 125px;
+    left: 10px;
+  }
   /*hero responsywnosc mobile*/
 
   /*modal-order responsywnosc mobile*/
