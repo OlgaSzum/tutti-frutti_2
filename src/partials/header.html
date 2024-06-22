@@ -21,44 +21,60 @@
           </svg>
         </div>
         <div class="topline_uil-cart topline_uil-cart_mobile">
-          <svg class="uil-cart" width="28" height="28">
-            <use href="./img/icons.svg#icon-hamburger-mobile"></use>
-          </svg>
+          <input
+            type="checkbox"
+            id="header_checkbox_id"
+            class="header_checkbox"
+          />
+          <label for="header_checkbox_id" class="header-checkbox_open-button">
+            <svg class="uil-cart" width="28" height="28">
+              <use href="./img/icons.svg#icon-hamburger-mobile"></use>
+            </svg>
+          </label>
+          <div class="modal_header">
+            <nav class="header-mobile-nav">
+              <div class="logo_pack_modal">
+                <a href="index.html" class="logo_pack-a">
+                  <svg width="16px" height="16px">
+                    <use href="./img/icons.svg#icon-logo"></use>
+                  </svg>
+                  <span class="logo_text">fresh harvest box</span>
+                </a>
+                <label
+                  for="header_checkbox_id"
+                  class="header-checkbox_close-button"
+                >
+                  <svg class="close-button_svg">
+                    <use href="img/icons.svg#icon-x-red"></use>
+                  </svg>
+                </label>
+              </div>
+              <div class="header-column">
+                <ul class="menu_modal">
+                  <li>
+                    <a href="#how-it-works" class="menu_modal_color"
+                      >How It Works</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#organic-fruits" class="menu_modal_color"
+                      >Fruits</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contacts" class="menu_modal_color">Contacts</a>
+                  </li>
+                  <li>
+                    <svg class="cart_uil">
+                      <use href="img/icons.svg#icon-uil_cart"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
       </nav>
     </div>
   </div>
-  <nav class="header-mobile-nav">
-    <div class="logo_pack_modal">
-      <a href="index.html" class="logo_pack-a">
-        <svg width="16px" height="16px">
-          <use href="./img/icons.svg#icon-logo"></use>
-        </svg>
-        <span class="logo_text">fresh harvest box</span>
-      </a>
-      <button type="button" class="close-button-modal">
-        <svg class="close-button_svg">
-          <use href="img/icons.svg#icon-x-red"></use>
-        </svg>
-      </button>
-    </div>
-    <div class="header-column">
-      <ul class="menu_modal">
-        <li>
-          <a href="#how-it-works" class="menu_modal_color">How It Works</a>
-        </li>
-        <li>
-          <a id="Fruits" href="#organic-fruits" class="menu_modal_color"
-            >Fruits</a
-          >
-        </li>
-        <li><a href="#contacts" class="menu_modal_color">Contacts</a></li>
-        <li>
-          <svg class="uil-cart uil-cart-modal" width="28" height="28">
-            <use href="./img/icons.svg#icon-uil_cart"></use>
-          </svg>
-        </li>
-      </ul>
-    </div>
-  </nav>
 </header>
