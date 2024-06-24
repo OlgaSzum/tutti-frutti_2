@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/tutti-frutti_2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-1423babe.css">
+    <link rel="stylesheet" href="/tutti-frutti_2/assets/index-983a75fa.css">
   </head>
   <body>
     <header class="header">
@@ -33,46 +33,62 @@
           </svg>
         </div>
         <div class="topline_uil-cart topline_uil-cart_mobile">
-          <svg class="uil-cart" width="28" height="28">
-            <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-hamburger-mobile"></use>
-          </svg>
+          <input
+            type="checkbox"
+            id="header_checkbox_id"
+            class="header_checkbox"
+          />
+          <label for="header_checkbox_id" class="header-checkbox_open-button">
+            <svg class="uil-cart" width="28" height="28">
+              <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-hamburger-mobile"></use>
+            </svg>
+          </label>
+          <div class="modal_header">
+            <nav class="header-mobile-nav">
+              <div class="logo_pack_modal">
+                <a href="index.html" class="logo_pack-a">
+                  <svg width="16px" height="16px">
+                    <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-logo"></use>
+                  </svg>
+                  <span class="logo_text">fresh harvest box</span>
+                </a>
+                <label
+                  for="header_checkbox_id"
+                  class="header-checkbox_close-button"
+                >
+                  <svg class="close-button_svg">
+                    <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-x-red"></use>
+                  </svg>
+                </label>
+              </div>
+              <div class="header-column">
+                <ul class="menu_modal">
+                  <li>
+                    <a href="#how-it-works" class="menu_modal_color"
+                      >How It Works</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#organic-fruits" class="menu_modal_color"
+                      >Fruits</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contacts" class="menu_modal_color">Contacts</a>
+                  </li>
+                  <li>
+                    <svg class="cart_uil">
+                      <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-uil_cart"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
       </nav>
     </div>
   </div>
-  <nav class="header-mobile-nav">
-    <div class="logo_pack_modal">
-      <a href="index.html" class="logo_pack-a">
-        <svg width="16px" height="16px">
-          <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-logo"></use>
-        </svg>
-        <span class="logo_text">fresh harvest box</span>
-      </a>
-      <button type="button" class="close-button-modal">
-        <svg class="close-button_svg">
-          <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-x-red"></use>
-        </svg>
-      </button>
-    </div>
-    <div class="header-column">
-      <ul class="menu_modal">
-        <li>
-          <a href="#how-it-works" class="menu_modal_color">How It Works</a>
-        </li>
-        <li>
-          <a id="Fruits" href="#organic-fruits" class="menu_modal_color"
-            >Fruits</a
-          >
-        </li>
-        <li><a href="#contacts" class="menu_modal_color">Contacts</a></li>
-        <li>
-          <svg class="uil-cart uil-cart-modal" width="28" height="28">
-            <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-uil_cart"></use>
-          </svg>
-        </li>
-      </ul>
-    </div>
-  </nav>
 </header>
 
     <!-- HERO ----------------------------------------------------------------->
@@ -208,192 +224,214 @@
 
   <img
     class="how-it-works_gif"
-    src="../img/how-it-works/fresh-harvest-box.gif"
+    src="/tutti-frutti_2/assets/fresh-harvest-box-564d0096.gif"
     alt="fruits in a big way"
   />
 </section>
 
     <!-- FRUITS --------------------------------------------------------------->
 <section class="container" id="organic-fruits">
-    <div class="fruit-section">
-        <div class="fruit-section-title-div">
-            <h2 class="fruit-section-title">ORGANIC FRUITS</h2>
+  <div class="fruit-section">
+    <div class="fruit-section-title-div">
+      <h2 class="fruit-section-title">ORGANIC FRUITS</h2>
 
-            <p class="section-title-text">
-                Our organic fruits are hand-picked from local farms and delivered
-                straight to your doorstep, ensuring that you get the freshest and most
-                nutritious produce possible. We offer a wide selection of organic fruits
-                grown without the use of harmful pesticides or chemicals.
-            </p>
+      <p class="section-title-text">
+        Our organic fruits are hand-picked from local farms and delivered
+        straight to your doorstep, ensuring that you get the freshest and most
+        nutritious produce possible. We offer a wide selection of organic fruits
+        grown without the use of harmful pesticides or chemicals.
+      </p>
+    </div>
+
+    <ul class="fruits-list">
+      <li class="fruits-list-item">
+        <div class="fruits-list-item-box strawberry">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Strawberry</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
+
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-1-desktop-1618e5fe.png"
+            alt="strawberry"
+            width="295"
+          />
+
+          <div class="fruits-oval"></div>
+
+          <button class="price-button" type="button">100 UAH / kg</button>
         </div>
+      </li>
 
-        <ul class="fruits-list">
+      <li class="fruits-list-item">
+        <div class="fruits-list-item-box banana">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Banana</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-            <li class="fruits-list-item">
-                <div class="fruits-list-item-box strawberry">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Strawberry</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-2-desktop-28cd00a4.png"
+            alt="banana"
+            width="295"
+          />
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-1-desktop-1618e5fe.png" alt="strawberry"
-                        width="295" />
+          <div class="fruits-oval"></div>
 
-                        <div class="fruits-oval"></div>
+          <button class="price-button" type="button">80 UAH / kg</button>
+        </div>
+      </li>
 
-                    <button class="price-button" type="button">
-                        100 UAH / kg
-                    </button>
-                </div>
-            </li>
+      <li class="fruits-list-item">
+        <div class="fruits-list-item-box watermelon">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Watermelon</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-            <li class="fruits-list-item">
-                <div class="fruits-list-item-box banana">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Banana</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-3-desktop-cf63d1fb.png"
+            alt="watermelon"
+            width="295"
+          />
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-2-desktop-28cd00a4.png" alt="banana" width="295" />
+          <div class="fruits-oval"></div>
 
-                    <div class="fruits-oval"></div>
+          <button class="price-button" type="button">40 UAH / kg</button>
+        </div>
+      </li>
 
-                    <button class="price-button" type="button">
-                        80 UAH / kg
-                    </button>
-                </div>
-            </li>
+      <li class="fruits-list-item">
+        <div class="fruits-list-item-box lime">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Lime</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-            <li class="fruits-list-item">
-                <div class="fruits-list-item-box watermelon">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Watermelon</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-4-desktop-4a2746da.png"
+            alt="lime"
+            width="295"
+          />
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-3-desktop-cf63d1fb.png" alt="watermelon"
-                        width="295" />
+          <div class="fruits-oval"></div>
 
-                        <div class="fruits-oval"></div>
+          <button class="price-button" type="button">16 UAH / kg</button>
+        </div>
+      </li>
 
-                    <button class="price-button" type="button">
-                        40 UAH / kg
-                    </button>
-                </div>
-            </li>
+      <li class="fruits-list-item">
+        <div class="fruits-list-item-box apple">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Apple</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-            <li class="fruits-list-item">
-                <div class="fruits-list-item-box lime">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Lime</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-5-desktop-b8fb7c5b.png"
+            alt="apple"
+            width="295"
+          />
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-4-desktop-4a2746da.png" alt="lime" width="295" />
+          <div class="fruits-oval"></div>
 
-                        <div class="fruits-oval"></div>
+          <button class="price-button" type="button">50 UAH / kg</button>
+        </div>
+      </li>
+      <li class="fruits-list-item">
+        <div class="fruits-list-item-box peach">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Peach</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-                    <button class="price-button" type="button">
-                        16 UAH / kg
-                    </button>
-                </div>
-            </li>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-6-desktop-9b1ce111.png"
+            alt="peach"
+            width="295"
+          />
 
-            <li class="fruits-list-item">
-                <div class="fruits-list-item-box apple">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Apple</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <div class="fruits-oval"></div>
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-5-desktop-b8fb7c5b.png" alt="apple" width="295" />
+          <button class="price-button" type="button">80 UAH / kg</button>
+        </div>
+      </li>
 
-                    <div class="fruits-oval"></div>
+      <li class="fruits-list-item fruit-visible">
+        <div class="fruits-list-item-box plums">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Plums</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-                    <button class="price-button" type="button">
-                        50 UAH / kg
-                    </button>
-                </div>
-            </li>
-            <li class="fruits-list-item">
-                <div class="fruits-list-item-box peach">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Peach</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-7-desktop-421418fe.png"
+            alt="plums"
+            width="295"
+          />
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-6-desktop-9b1ce111.png" alt="peach" width="295" />
+          <div class="fruits-oval"></div>
 
-                    <div class="fruits-oval"></div>
+          <button class="price-button" type="button">40 UAH / kg</button>
+        </div>
+      </li>
 
-                    <button class="price-button" type="button">
-                        80 UAH / kg
-                    </button>
-                </div>
-            </li>
+      <li class="fruits-list-item fruit-visible">
+        <div class="fruits-list-item-box orange">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Orange</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-8-desktop-75c66537.png"
+            alt="orange"
+            width="295"
+          />
 
-            <li class="fruits-list-item fruit-visible">
-                <div class="fruits-list-item-box plums">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Plums</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
+          <div class="fruits-oval"></div>
 
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-7-desktop-421418fe.png" alt="plums" width="295" />
+          <button class="price-button" type="button">60 UAH / kg</button>
+        </div>
+      </li>
 
-                    <div class="fruits-oval"></div>
+      <li class="fruits-list-item kiwi-visible fruit-visible">
+        <div class="fruits-list-item-box kiwi">
+          <div class="fruits-item-name">
+            <h3 class="fruits-item-name-title">Kiwi</h3>
+            <p class="fruits-item-name-text">Plant</p>
+          </div>
 
-                    <button class="price-button" type="button">
-                        40 UAH / kg
-                    </button>
-                </div>
-            </li>
+          <img
+            class="fruits-img"
+            src="/tutti-frutti_2/assets/product-9-desktop-2c018d45.png"
+            alt="kiwi"
+            width="295"
+          />
 
-            <li class="fruits-list-item fruit-visible">
-                <div class="fruits-list-item-box orange">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Orange</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-8-desktop-75c66537.png" alt="orange" width="295" />
+          <div class="fruits-oval"></div>
 
-                    <div class="fruits-oval"></div>
+          <button class="price-button" type="button">90 UAH / kgs</button>
+        </div>
+      </li>
+    </ul>
 
-                    <button class="price-button" type="button">
-                        60 UAH / kg
-                    </button>
-                </div>
-            </li>
+    <input type="checkbox" id="order-modal" class="order-modal" />
 
-            <li class="fruits-list-item kiwi-visible fruit-visible">
-                <div class="fruits-list-item-box kiwi">
-                    <div class="fruits-item-name">
-                        <h3 class="fruits-item-name-title">Kiwi</h3>
-                        <p class="fruits-item-name-text">Plant</p>
-                    </div>
-
-                    <img class="fruits-img" src="/tutti-frutti_2/assets/product-9-desktop-2c018d45.png" alt="kiwi" width="295" />
-
-                    <div class="fruits-oval"></div>
-                    
-                    <button class="price-button" type="button">
-                        90 UAH / kgs
-                    </button>
-                </div>
-            </li>
-
-        </ul>
-
-        <input type="checkbox" id="order-modal" class="order-modal">
-    
-
-        <label for="order-modal" class="order-button">
-            <svg class="order-icon" width="14" height="14">
-                <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-vector"></use>
-            </svg>
-            <span class="order-button-text">ORDER</span>
-        </label>
-        <div class="modal-order">
+    <label for="order-modal" class="order-button">
+      <svg class="order-icon" width="14" height="14">
+        <use href="/tutti-frutti_2/assets/icons-cfa28482.svg#icon-vector"></use>
+      </svg>
+      <span class="order-button-text">ORDER</span>
+    </label>
+    <div class="modal-order">
   <div class="modal-order_content">
     <label for="order-modal" class="close-button"
       ><svg class="modal-order_content_close-button_svg">
@@ -407,7 +445,7 @@
         <label>
           <div>
             <input
-              id="modal-order_content_checkbox"
+              id="modal-order_content_checkbox_strawberry"
               type="checkbox"
               class="modal-order_content_checkbox"
             />
@@ -416,19 +454,19 @@
             <div class="modal-order_content_card_div_img">
               <img
                 class="modal-order_content_card_img modal-order_content_img_desktop"
-                src="../img/pop-up-your-order/strawberry-basket-pop-up-desktop.png"
+                src="/tutti-frutti_2/assets/strawberry-basket-pop-up-desktop-18259567.png"
                 alt="strawberris in the baskiet"
                 srcset=""
               />
               <img
                 class="modal-order_content_card_img modal-order_content_img_tablet"
-                src="../img/pop-up-your-order/strawberry-basket-pop-up-tablet.png"
+                src="/tutti-frutti_2/assets/strawberry-basket-pop-up-tablet-831189bb.png"
                 alt="strawberris in the baskiet"
                 srcset=""
               />
               <img
                 class="modal-order_content_card_img modal-order_content_img_mobile"
-                src="../img/pop-up-your-order/strawberry-basket-pop-up-mobile.png"
+                src="/tutti-frutti_2/assets/strawberry-basket-pop-up-mobile-25f5fec7.png"
                 alt="strawberris in the baskiet"
                 srcset=""
               />
@@ -440,7 +478,7 @@
         <label>
           <div>
             <input
-              id="modal-order_content_checkbox"
+              id="modal-order_content_checkbox_apple"
               type="checkbox"
               class="modal-order_content_checkbox"
             />
@@ -449,19 +487,19 @@
             <div class="modal-order_content_card_div_img">
               <img
                 class="modal-order_content_card_img modal-order_content_img_desktop"
-                src="../img/pop-up-your-order/apple-basket-desktop.png"
+                src="/tutti-frutti_2/assets/apple-basket-desktop-008351b9.png"
                 alt="apples in the baskiet"
                 srcset=""
               />
               <img
                 class="modal-order_content_card_img modal-order_content_img_tablet"
-                src="../img/pop-up-your-order/apple-basket-tablet.png"
+                src="/tutti-frutti_2/assets/apple-basket-tablet-fb2f0f61.png"
                 alt="strawberris in the baskiet"
                 srcset=""
               />
               <img
                 class="modal-order_content_card_img modal-order_content_img_mobile"
-                src="../img/pop-up-your-order/apple-basket-mobile.png"
+                src="/tutti-frutti_2/assets/apple-basket-mobile-745c7490.png"
                 alt="strawberris in the baskiet"
                 srcset=""
               />
@@ -473,7 +511,7 @@
         <label>
           <div>
             <input
-              id="modal-order_content_checkbox"
+              id="modal-order_content_checkbox_fruits"
               type="checkbox"
               class="modal-order_content_checkbox"
             />
@@ -482,19 +520,19 @@
             <div class="modal-order_content_card_div_img">
               <img
                 class="modal-order_content_card_img modal-order_content_img_desktop"
-                src="../img/pop-up-your-order/fruits-basket-desktop.png"
+                src="/tutti-frutti_2/assets/fruits-basket-desktop-33b17c41.png"
                 alt="fruits in the baskiet"
                 srcset=""
               />
               <img
                 class="modal-order_content_card_img modal-order_content_img_tablet"
-                src="../img/pop-up-your-order/fruits-basket-tablet.png"
+                src="/tutti-frutti_2/assets/fruits-basket-tablet-b53f48fa.png"
                 alt="fruits in the baskiet"
                 srcset=""
               />
               <img
                 class="modal-order_content_card_img modal-order_content_img_mobile"
-                src="../img/pop-up-your-order/fruits-basket-mobile.png"
+                src="/tutti-frutti_2/assets/fruits-basket-mobile-5e3b24e9.png"
                 alt="fruits in the baskiet"
                 srcset=""
               />
@@ -514,6 +552,7 @@
             name="name"
             placeholder="Enter full name..."
             class="modal-order-input"
+            autocomplete="on"
             required
           />
         </div>
@@ -525,6 +564,7 @@
             name="phone_number"
             placeholder="Enter email..."
             class="modal-order-input"
+            autocomplete="on"
             required
           />
         </div>
@@ -536,6 +576,7 @@
             name="phone_number"
             placeholder="Enter card..."
             class="modal-order-input"
+            autocomplete="on"
             required
           />
         </div>
@@ -559,9 +600,9 @@
   </div>
 </div>
 
-        </button>
-    </div>
+  </div>
 </section>
+
     <!-- CONTACTS ------------------------------------------------------------->
 <section class="container" id="contacts">
   <div class="contacts_section">
@@ -625,6 +666,7 @@
         type="email"
         placeholder="Enter email..."
         name="email"
+        autocomplete="on"
       /><label for="contacts_checkbox_id" class="send-button">Send</label>
       <input
         type="checkbox"
